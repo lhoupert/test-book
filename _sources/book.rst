@@ -10,12 +10,12 @@
    :viewport: width=device-width, initial-scale=1, maximum-scale=1
 
 .. |date| date::  %B %Y
-
+   
 ===============================================================================
-                             From Python to Numpy
+                             From Python to Numpy                              
 ===============================================================================
 -------------------------------------------------------------------------------
-       Copyright (c) 2017 - Nicolas P. Rougier <Nicolas.Rougier@inria.fr>
+       Copyright (c) 2017 - Nicolas P. Rougier <Nicolas.Rougier@inria.fr> 
 -------------------------------------------------------------------------------
 
 .. default-role:: code
@@ -56,6 +56,14 @@ process.
 **Website:** http://www.labri.fr/perso/nrougier/from-python-to-numpy
 
 
+.. ----------------------------------------------------------------------------
+.. contents:: **Table of Contents**
+   :class: main-content
+   :depth: 2
+
+|
+|
+
 **Disclaimer:** All external pictures should have associated credits. If there
 are missing credits, please tell me, I will correct it. Similarly, all excerpts
 should be sourced (wikipedia mostly). If not, this is an error and I will
@@ -71,3 +79,23 @@ my advice would be to read it first and then decide if you still want to buy it
 <https://www.paypal.me/NicolasPRougier/25>`_). You won't get anything extra but
 it might help me with the writing of the upcoming **Python and OpenGL for
 Scientific Visualization** (May 2018).
+
+
+.. ----------------------------------------------------------------------------
+.. |WIP| image:: https://img.shields.io/badge/status-WIP-orange.svg?style=flat-square
+
+.. ----------------------------------------------------------------------------
+.. include:: 01-preface.rst
+.. include:: 02-introduction.rst
+.. include:: 03-anatomy.rst
+.. include:: 04-code-vectorization.rst
+.. include:: 05-problem-vectorization.rst
+.. include:: 06-custom-vectorization.rst
+.. include:: 07-beyond-numpy.rst
+.. include:: 08-conclusion.rst
+.. include:: 09-quick-reference.rst
+.. include:: 10-bibliography.rst
+
+
+.. --- Compilation ------------------------------------------------------------
+.. rst2html.py --link-stylesheet --stylesheet=markdown.css book.rst book.html
