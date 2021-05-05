@@ -45,7 +45,7 @@ If you want to rebuild the html output, from the top directory, type:
                  --stylesheet-dirs=. book.rst book.html
 
 The sources are available from https://github.com/rougier/from-python-to-numpy.
-
+                   
 .. |ReST| replace:: restructured text
 .. _ReST: http://docutils.sourceforge.net/rst.html
 .. _docutils: http://docutils.sourceforge.net/
@@ -66,7 +66,7 @@ We will use usual naming conventions. If not stated explicitly, each script
 should import NumPy, scipy and matplotlib as:
 
 .. code-block:: python
-
+   
    import numpy as np
    import scipy as sp
    import matplotlib.pyplot as plt
@@ -144,3 +144,4 @@ The code is licensed under the `OSI-approved BSD 2-Clause License
 .. _Ten Simple Rules for Better Figures:
       http://dx.doi.org/10.1371/journal.pcbi.1003833
 .. ----------------------------------------------------------------------------
+
